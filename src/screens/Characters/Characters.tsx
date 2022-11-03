@@ -23,6 +23,7 @@ export const Characters = (): React.ReactElement => {
               gender={item.gender}
             />
           )}
+          onEndReached={() => console.log("here")}
         />
       </View>
     </SafeAreaLayout>
